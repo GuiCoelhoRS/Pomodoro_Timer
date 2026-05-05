@@ -1,0 +1,19 @@
+:root{
+    --main-background-colour: rgb(233,237,201);
+    --div-primary-background-colour: rgb(250,237,205);
+}
+
+body{
+    background-color: var(--main-background-colour);
+}
+
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid rgb(212,163,115);
+    border-radius: 10px;
+    background-color: var(--div-primary-background-colour);
+}
